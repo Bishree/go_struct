@@ -3,5 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("hello world")
+
+	//TODO create a bill structure inside bill file
+	//call this bill here
+	mybill := newBill("ahmed Yaseen")
+	fmt.Println(mybill.format())
+	//type bill
 }
