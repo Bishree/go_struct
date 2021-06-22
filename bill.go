@@ -2,54 +2,48 @@ package main
 
 import (
 	"fmt"
-	"strings"
 )
 
-//creat bill type structure
+//create type for bill
 type bill struct {
 	name  string
 	items map[string]float64
 	tip   float64
 }
 
-//creat new bill form bill type
+//create func to generate new bill
 func newBill(name string) bill {
 	b := bill{
-		name:  strings.ToUpper(name),
+		name:  name,
 		items: map[string]float64{},
-		tip:   10,
+		tip:   0,
 	}
 	return b
-
 }
 
-//creat a bill format receiver func
-func (b bill) format() string {
-	fs := fmt.Sprintf("Bill breakdown for %v is : \n", b.name)
-	var total float64 = 0
-	// to go through all items
+//crate a func for format to call bill
+func (b *bill) format() string {
+	fs := fmt.Sprintf("Bill Breakdown for Sir/madam: %v \n", b.name)
+	var total float64
 	for k, v := range b.items {
-		fs += fmt.Sprintf("%-25v ...%v \n", k+":", v)
+		fs += fmt.Sprintf("%-25v ...%0.2f \n", k+":", v)
 		total += v
 	}
+	//creat tip
+	fs += fmt.Sprintf("%-25v ...%0.2f \n", "Tip", b.tip)
 
-	total += b.tip
-	// getting total
-	fs += fmt.Sprintf("%-25v ...%0.2f \n", "Total is:", total)
-
-	// adding tip to the bill
-	fs += fmt.Sprintf("%-25v ...%v", "Tip is:", b.tip)
-
-	//return the bill format
+	//calculate total amount value
+	fs += fmt.Sprintf("%-25v ...%0.2f \n", "Total:", total+b.tip)
 	return fs
 }
 
-// update the tip
+//create func to update tip amount
 func (b *bill) updateTip(tip float64) {
 	b.tip = tip
 }
 
-// add items to the bill
+//create func to add new item to the bill menu
 func (b *bill) addItem(name string, price float64) {
 	b.items[name] = price
+
 }
