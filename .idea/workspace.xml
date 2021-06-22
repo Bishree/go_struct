@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f066816e-7a81-4f3d-bcf8-3dc1fa847419" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bill.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bill.go" beforeDir="false" afterPath="$PROJECT_DIR$/bill.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go_struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_struct.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +76,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first_commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first_commit" />
+    <MESSAGE value="finish_the_bill&#10;create type bill&#10;create new one &#10;call new format" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish_the_bill&#10;create type bill&#10;create new one &#10;call new format" />
   </component>
 </project>

@@ -16,7 +16,7 @@ type bill struct {
 func newBill(name string) bill {
 	b := bill{
 		name:  strings.ToUpper(name),
-		items: map[string]float64{"Texas steak": 120, "anber rise": 55, "coffee espresso": 10},
+		items: map[string]float64{},
 		tip:   10,
 	}
 	return b
@@ -42,4 +42,14 @@ func (b bill) format() string {
 
 	//return the bill format
 	return fs
+}
+
+// update the tip
+func (b *bill) updateTip(tip float64) {
+	b.tip = tip
+}
+
+// add items to the bill
+func (b *bill) addItem(name string, price float64) {
+	b.items[name] = price
 }
