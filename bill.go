@@ -77,7 +77,7 @@ func createBill() bill {
 }
 func (b *bill) save() {
 	data := []byte(b.format())
-	err := os.WriteFile("bills_"+b.name+".txt", data, 0644)
+	err := os.WriteFile("bills/bills_"+b.name+".txt", data, 0644)
 	if err != nil {
 		panic(err)
 	}

@@ -1,0 +1,5 @@
+Bill Breakdown for Sir/madam: test06 
+soup:                     ...7.00 
+bread:                    ...3.00 
+Tip                       ...5.00 
+Total:                    ...15.00 

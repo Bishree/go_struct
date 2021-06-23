@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f066816e-7a81-4f3d-bcf8-3dc1fa847419" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bills_ahmed.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bills_simsim.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bills_test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bills_test05.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bills_test4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bills_tost.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bill.go" beforeDir="false" afterPath="$PROJECT_DIR$/bill.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_struct.go" afterDir="false" />
-    </list>
+    <list default="true" id="f066816e-7a81-4f3d-bcf8-3dc1fa847419" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,25 +85,21 @@
     <MESSAGE value="first_commit" />
     <MESSAGE value="finish_the_bill&#10;create type bill&#10;create new one &#10;call new format" />
     <MESSAGE value="updating_the_tip&#10;add_more_items_func" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating_the_tip&#10;add_more_items_func" />
+    <MESSAGE value="save file&#10;full bill with all items updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="save file&#10;full bill with all items updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/bill.go</url>
-          <line>124</line>
+          <line>112</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/bill.go</url>
           <line>113</line>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/bill.go</url>
-          <line>114</line>
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/bill.go</url>
