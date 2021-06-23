@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f066816e-7a81-4f3d-bcf8-3dc1fa847419" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bills_ahmed.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bills_simsim.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bills_test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bills_test05.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bills_test4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bills_tost.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bill.go" beforeDir="false" afterPath="$PROJECT_DIR$/bill.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go_struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_struct.go" afterDir="false" />
@@ -39,6 +45,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -49,6 +56,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunManager">
     <configuration name="go build go_struct" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -83,9 +91,36 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first_commit" />
     <MESSAGE value="finish_the_bill&#10;create type bill&#10;create new one &#10;call new format" />
     <MESSAGE value="updating_the_tip&#10;add_more_items_func" />
     <option name="LAST_COMMIT_MESSAGE" value="updating_the_tip&#10;add_more_items_func" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/bill.go</url>
+          <line>124</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/bill.go</url>
+          <line>113</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/bill.go</url>
+          <line>114</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/bill.go</url>
+          <line>107</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

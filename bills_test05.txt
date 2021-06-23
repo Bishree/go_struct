@@ -1,0 +1,6 @@
+Bill Breakdown for Sir/madam: test05 
+rise:                     ...20.00 
+coffee:                   ...10.00 
+steak:                    ...30.00 
+Tip                       ...5.00 
+Total:                    ...65.00 
